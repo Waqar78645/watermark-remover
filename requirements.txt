@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+numpy>=1.26
+opencv-python-headless>=4.9
+# (headless build: same API, no GUI libraries needed on a server.
+#  For local desktop use, opencv-python works identically.)
+# System dependency (not pip): ffmpeg + ffprobe  (apt install ffmpeg / brew install ffmpeg)
